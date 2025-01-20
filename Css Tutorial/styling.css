@@ -1,0 +1,39 @@
+.container{
+    background-color: antiquewhite;
+    border: 2px solit burlywood;
+    width: 70%;
+    padding: 30px 20px;
+    margin: 4% auto;
+}
+.btn{
+    font-weight: 300;
+   
+    background-color: rgb(194, 122, 28);
+    padding: 7px;
+    border: none;
+    cursor: pointer  !important;
+    font-size: medium;
+    border-radius: 2px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover,button:hover{
+    color: brown;
+    background-color: rgb(194, 122, 80);
+}
+button:hover{
+    color:antiquewhite;
+ 
+    border:2px solid rgb(42, 165, 149)
+}
+a:visited{
+    background-color: aqua;
+    /* if u have visited the link this will be of given color */
+}
+a:active{
+     background-color: #fff7f7; 
+    /*it will be of this color when u will click on read more */
+}
+/* active, visited, hover these are pseudo selector using : */

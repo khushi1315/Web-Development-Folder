@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+}
+.card{
+    padding:10px;
+    border: 2px solid rgb(61, 34, 0);
+    margin: 10px;
+    box-shadow:14px 13px 34px 6px DARKBLUE;
+    background-color: aqua;
+    /* here first value is for x axis and second for y.Values can also be negative. */
+    /* the third value is for blurness  */
+    /* 4th value is for spread radius */
+    /* box-shadow: inset 13px 14px 4px brown ; */
+    /* inset for shadow inside box . */
+    /* if u want to add more than 1 color shadow. You can do this by separating with comma */
+
+    /* Text shadow  */
+   
+}
+.card h2{
+        text-shadow:16px 10px 49px #ededf0;
+    }

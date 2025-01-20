@@ -1,0 +1,11 @@
+.grid{
+    display: grid;
+    /* this is you defined values for frist 3 rows rest will be auto (wil be same as first)*/
+    grid-template-rows: 2fr 3fr 5fr;
+    /* for the rest auto rows you can set using grid-auto-rows:  */
+    grid-auto-rows: 4fr; 
+}
+.box{
+    background-color: rgb(43, 76, 76);
+    border: 2px solid blueviolet;
+}

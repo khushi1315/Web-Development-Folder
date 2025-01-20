@@ -1,0 +1,27 @@
+.container{
+    border:2px solid seagreen;
+    background-color: aqua;
+    height: 3000px;
+}
+.box{
+    border: 2px solid red;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 2px;
+}
+#box3{
+     /* relative: Positions the element relative to its normal positon and will leave a gap at its normal position*/
+    /* position: relative;
+    left: 15px;
+    top:10px; */
+    /* position: absolute;
+    top: 34px;
+    left: 34px;         */
+
+    position: fixed;
+    top: 0px;
+    /* position: sticky;
+    top: 3px; */
+
+}

@@ -1,0 +1,50 @@
+
+.container{
+    height: 384px;
+    width:99%;
+    border:2px dotted blueviolet;
+    display: flex;
+    /* flex-direction: column;
+    flex-direction: column-reverse; */
+    /* reverse means elements will be in reverse in given direction */
+    /* flex-direction: row-reverse; */
+    flex-direction: row;
+   
+    flex-wrap: wrap;
+    /* wrap is important for responsivenes */
+    flex-flow: row wrap;
+  
+    /* justify-content: space-between; */
+    justify-content: center;
+      justify-content:space-around;
+    align-items: center;
+    align-items: end;
+    align-items: start;
+    align-items: stretch;
+}
+.item{
+    width:20%;
+    height: 60px;
+    background-color: khaki;
+    border:2px solid Red;
+    margin: 10px;
+    padding: 10px;
+}
+/* flex properties for flex items */
+#item1{
+    order: 2;
+
+}
+#item2{
+    order :4;
+    flex-shrink: 4;
+}
+#item3{
+    /* order: 6; */
+    flex-basis:248px;
+    /* when flex-direction is set to row flex-basis: will control width */
+    /* when flex-direction is set to column flex-basis: will control height */
+    /* flex-grow: 2;
+    align-self:flex-end; */
+    
+}

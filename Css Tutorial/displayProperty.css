@@ -1,0 +1,32 @@
+.container{
+    margin: auto; 
+    width: 791px;
+}
+/* header
+{
+    border:2px solid salmon 
+}  */
+img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: auto;
+    display: block; 
+    /* because img is inline element  so set display to block */
+
+}
+h3{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px;
+}
+.box{
+    border: 2px solid slategrey;
+    background-color: azure;
+     margin: 2%;
+    padding: 26px;
+    display: inline-block;
+     width: 45%;
+    box-sizing: border-box;
+
+}

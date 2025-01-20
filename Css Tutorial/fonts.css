@@ -1,0 +1,15 @@
+
+p{
+    font-family: sans-serif;
+    border: 2px solid coral;
+    border-top-right-radius: 2;
+}
+#td{
+    border: 5px dotted rgb(22, 19, 20);
+    border-color: aquamarine;
+    background-color: antiquewhite;
+    
+}
+#third{
+    color: rgb(0, 27, 66);
+}

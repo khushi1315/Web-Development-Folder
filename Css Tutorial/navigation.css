@@ -1,0 +1,29 @@
+.navbar{
+    background-color:rgb(57, 48, 37);
+    border-radius: 8px;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    margin:2% 2%;
+ 
+}
+.navbar li a{
+    text-decoration: none; 
+    /*Aways write text-decoration-none on top because css remove line first then applies color property*/
+    padding:3px 3px ;
+    color:antiquewhite
+    
+    /* if u want to remove underline from anchor tag do text decoration none*/
+    
+}
+.navbar input{
+    float:right;
+    float: right;
+    text-align: center;
+     margin: 2% 2%;
+     border-radius: 4px;
+}
