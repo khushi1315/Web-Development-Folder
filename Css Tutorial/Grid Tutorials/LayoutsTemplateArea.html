@@ -4,32 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Creating layouts using template areas</title>
-    <style>
-        .container{
-            display: grid;
-            gap: 1rem;
-            grid-template-areas: 'navbar navbar navbar navbar'
-            'section section section aside'
-            'footer footer footer footer';
-
-        }
-        .item{
-            border:2px solid blue;
-            background-color: rgb(33, 253, 253);
-        }
-        #navbar{
-            grid-area: navbar;
-        }
-        #section{
-            grid-area: section;
-        }
-        #aside{
-            grid-area: aside;
-        }
-        footer{
-            grid-area: footer;
-        }
-    </style>
+    <link rel="stylesheet" href="Layouts.css">
 </head>
 <body>
     <div class="container">

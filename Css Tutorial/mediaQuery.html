@@ -4,41 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media and Query</title>
-    <style>
-        .box{
-            background-color: aqua;
-            font-size: 70px;
-            color: black;
-            text-align: center;
-            display: none;
-        }
-        #box1{
-            @media (max-width:300px){
-                display: block;
-                background-color: aquamarine;
-            }
-        }
-        #box2{
-            @media (min-width:300px) and (max-width:500px) {
-                display: block;
-                background-color: rgb(7, 54, 39);
-            }
-        }
-        #box3{
-            @media (min-width:500px) and (max-width:900px){
-                display: block;
-                background-color: rgb(37, 37, 136);
-            }
-        }
-        #box4{
-            @media (min-width:900px){
-                display: block;
-                background-color: blue;
-            }
-        }
-        
-
-    </style>
+    <link rel="stylesheet" href="mediaQuery.css">
 </head>
 <body>
     <div class="container">
