@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Selectors and More Designing</title>
+    <style>
+        .container{
+            background-color: antiquewhite;
+            border: 2px solit burlywood;
+            width: 70%;
+            padding: 30px 20px;
+            margin: 4% auto;
+        }
+        .btn{
+            font-weight: 300;
+           
+            background-color: rgb(194, 122, 28);
+            padding: 7px;
+            border: none;
+            cursor: pointer  !important;
+            font-size: medium;
+            border-radius: 2px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        a:hover,button:hover{
+            color: brown;
+            background-color: rgb(194, 122, 80);
+        }
+        button:hover{
+            color:antiquewhite;
+         
+            border:2px solid rgb(42, 165, 149)
+        }
+        a:visited{
+            background-color: aqua;
+            /* if u have visited the link this will be of given color */
+        }
+        a:active{
+             background-color: #fff7f7; 
+            /*it will be of this color when u will click on read more */
+        }
+      /* active, visited, hover these are pseudo selector using : */
+
+    </style>
+</head>
+<body>
+    <div class="container" id="cont1">
+        <h3>This is my Heading</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque dicta, laboriosam porro necessitatibus vero facilis sed nam labore veritatis ea officiis voluptatum cupiditate? Quam repellat quae, quod fuga a tenetur et aut illo ab nam corrupti suscipit harum nemo asperiores.</p>
+        <a href="https://www.youtube.com/" class="btn">Read more</a>
+        <button class="btn">Contact Us</button>
+    </div>
+</body>
+</html>

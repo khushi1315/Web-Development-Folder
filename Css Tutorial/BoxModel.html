@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOX MOdel</title>
+    <style>
+        /* universal selector */
+        *{
+            box-sizing: border-box; /*ADjust it's padding acc to box size*/ 
+        }
+        body{
+            background-color: rgb(58 161 170);
+        }
+        .Container{
+            background-color: rgb(15, 206, 206);
+            border: 3px solid rgb(15, 108, 100);
+            /* we can see padding for top, bottom, left and right like this */
+            /* padding-top:80px;
+            padding-bottom: 50px;
+            padding-left: 30px;
+            padding-right: 30px; */
+            /* padding: 34px,50px; */
+            /* padding: y(top/bottom),x(left,right) */
+            padding:30px 50px 36px 50px;  
+            /*Top,right,Bottom,left*/
+            /* margin:44px 122px; */
+            border-radius: 20px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            margin-left: 50px;
+            margin-right: 200px;
+        }
+           
+    </style>
+</head>
+<body>
+    <div class="Container">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi tempora aperiam necessitatibus quaerat corrupti quis maxime illum veniam error saepe vel sunt inventore numquam ipsum et omnis, officiis labore fugit?
+    </div>
+</body>
+</html>

@@ -1,0 +1,8 @@
+#A{
+    background-color: color-mix(in hwb increasing hue, color percentage, color percentage);
+    color: crimson;
+}
+p{
+    background-color: color-mix(in oklab, color percentage, color percentage);
+    color: rgb(0, 0, 0);
+}

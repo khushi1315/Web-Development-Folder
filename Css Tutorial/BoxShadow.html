@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Shadow and Text Shadow</title>
+    <style>
+        .container{
+            display: flex;
+        }
+        .card{
+            padding:10px;
+            border: 2px solid rgb(61, 34, 0);
+            margin: 10px;
+            box-shadow:14px 13px 34px 6px DARKBLUE;
+            background-color: aqua;
+            /* here first value is for x axis and second for y.Values can also be negative. */
+            /* the third value is for blurness  */
+            /* 4th value is for spread radius */
+            /* box-shadow: inset 13px 14px 4px brown ; */
+            /* inset for shadow inside box . */
+            /* if u want to add more than 1 color shadow. You can do this by separating with comma */
+
+            /* Text shadow  */
+           
+        }
+        .card h2{
+                text-shadow:16px 10px 49px #ededf0;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card" id="card1">
+            <h2>Card 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita distinctio at in, aperiam praesentium hic itaque tempora iste error beatae delectus aspernatur placeat voluptatibus dolore. Magnam ipsum saepe ducimus nulla.</p>
+        </div>
+        <div class="card" id="card2">
+            <h2>Card 2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita distinctio at in, aperiam praesentium hic itaque tempora iste error beatae delectus aspernatur placeat voluptatibus dolore. Magnam ipsum saepe ducimus nulla.</p>
+        </div>
+        <div class="card" id="card3">
+            <h2>Card 3</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita distinctio at in, aperiam praesentium hic itaque tempora iste error beatae delectus aspernatur placeat voluptatibus dolore. Magnam ipsum saepe ducimus nulla.</p>
+        </div>
+    </div>
+</body>
+</html>

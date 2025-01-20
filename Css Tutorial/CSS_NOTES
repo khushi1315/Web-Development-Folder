@@ -1,0 +1,26 @@
+flexbox is a one-dimensional layout method for laying out items in rows or columns.
+Css flexbox is a better way to align items into a container.
+flexbox=flexible+ box
+syntax:
+    p{ color: blue;}
+    selector ,property, value
+To make a box flebox you need to make container display: flex;
+if parent container is flex then all items inside it will be flex items
+after this you can apply flex properties.
+width should be small or 100% instead of thousands of pixels for responsiveness otherwise wrap property will not be reflected.
+use flex-flow for both direciton and wrap 
+like thsi 
+flex-flow: row wrap;
+Justify content is gud property in this
+also align items
+
+
+Responsive Design
+ways to achieve responsiveness
+1.Setting up the viewport1.
+
+2.use max-width/max-height.
+3.Using Css media queries.
+4. using rem/vh/vw units over pixels
+100vh takes height of whole page
+100 vw takes width of whole page

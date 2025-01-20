@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float and Clear</title>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+15&display=swap" rel="stylesheet">
+
+    <style>
+        body{
+            font-family: "Jersey 15", serif;
+            font-weight: 400;
+            font-style: normal;
+            background-color: hwb(184.88deg 7.31% 56.27% / 95%);
+        }
+        *{
+             box-sizing: border-box; 
+            
+        }
+        .container{
+            width: 780px;
+            border: 9px solid #82778d;
+            border-style: outset;
+            background-color: #98fffe;
+
+        }
+        .item{
+            border: 4px solid rgb(156 141 171);
+            padding: 50px 22px;
+            margin: 8px 49px 24px 59px;
+            background-color: #85dfdf;
+            border-style: outset;
+
+        }
+        #fruit{
+            float: left;
+            width: 42%;
+            margin-right: 1%;
+        }
+        #Pc{
+            float: left;
+            width: 38%; 
+            margin-left: 1%;
+        }
+            /*You can also do float:right, clear:right*/
+        #food{
+            clear:both;
+            width: 82%;
+        } 
+        p,h2,h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>WELCOME TO MY CLASS</h1>
+       
+        <div id="fruit" class="item">
+            <h2>fruit</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos nesciunt repellat ducimus doloremque, voluptatem sapiente a reiciendis veritatis tempore consequuntur.</p>
+        </div>
+       
+        <div id="Pc" class="item">
+            <h2>Pc</h2>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusantium nam non, animi nisi consequuntur perspiciatis fuga nulla voluptates deleniti.
+        </div>
+      
+        <div id="food" class="item">
+            <h3>food</h3>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, cupiditate. Pariatur nostrum architecto magnam numquam voluptas commodi error aliquid? Omnis?
+        </div>
+    </div>
+    
+</body>
+</html>

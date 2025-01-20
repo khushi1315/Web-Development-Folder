@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating layouts using template areas</title>
+    <style>
+        .container{
+            display: grid;
+            gap: 1rem;
+            grid-template-areas: 'navbar navbar navbar navbar'
+            'section section section aside'
+            'footer footer footer footer';
+
+        }
+        .item{
+            border:2px solid blue;
+            background-color: rgb(33, 253, 253);
+        }
+        #navbar{
+            grid-area: navbar;
+        }
+        #section{
+            grid-area: section;
+        }
+        #aside{
+            grid-area: aside;
+        }
+        footer{
+            grid-area: footer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="navbar" class="item">Home about contact us</div>
+        <div id="section" class="item">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione vel esse quis. Eum facere illum reprehenderit rem maxime dolores, omnis delectus dicta alias labore! Alias non veritatis nostrum optio delectus deleniti repellendus aliquid architecto quae quod tempore officia aspernatur laudantium, explicabo odit saepe assumenda amet earum fugit impedit hic soluta mollitia eligendi? Ipsam accusantium quae ducimus esse quos placeat voluptatem doloremque error incidunt cum? Vitae pariatur vel est dignissimos voluptatibus animi dolorem, ab consectetur ea modi quos officiis a magni amet illo rem commodi cupiditate temporibus iure beatae neque perspiciatis libero! Totam hic beatae id quasi accusantium amet nulla fugit!
+        </div>
+        <div id="aside" class="item">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi excepturi autem repellendus, voluptas consequatur magnam necessitatibus quaerat ullam velit beatae unde qui, aliquam ut, veritatis inventore pariatur totam laudantium sapiente facilis ad. Doloribus consectetur inventore, dolorum modi temporibus eum perspiciatis?</div>
+    </div>
+    <footer class="item">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione vel esse quis. Eum facere illum reprehenderit rem maxime dolores, omnis delectus dicta alias labore! Alias non veritatis nostrum optio delectus deleniti repellendus aliquid architecto quae quod tempore officia aspernatur laudantium, explicabo odit saepe assumenda amet earum 
+    </footer>
+</body>
+</html>

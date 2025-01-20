@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css selectors</title>
+    <style>
+        /*Element selector*/
+        p{
+            background-color: aqua;
+        }
+        /* Id selector */
+        #para2{
+            color: aquamarine;
+            background-color: black;
+        }
+        /* class selector */
+        .bgcolor{
+            background-color: purple;
+        }
+        /* Grouping selector */
+        .second,.fourth{
+            background-color: rgb(255, 0, 123);
+            color: 
+            rgb(9, 2, 2);
+        }
+        span,div{
+            background-color: rgb(76, 68, 72);
+            color: rgb(74, 18, 18);
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Selectors</h1>
+    <p id="mypara" class="first bgcolor">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, unde.
+    </p>
+    <p if="para2" class="second">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum impedit, maxime ratione reprehenderit dolore praesentium aperiam in numquam, corporis eligendi beatae architecto dolorum perferendis. Quia veniam, maiores aspernatur tenetur voluptatibus porro unde? Quas, corporis! Corrupti molestias adipisci porro quia inventore fugiat optio reprehenderit. Deleniti incidunt hic magni voluptatem assumenda alias, voluptatibus laboriosam laborum debitis aspernatur ipsa omnis rem nam nostrum optio natus, velit obcaecati libero beatae sint sequi. Repudiandae, nostrum. Dicta, veniam? Autem asperiores consequatur libero nihil fuga porro repudiandae consectetur sapiente labore animi nobis incidunt officia iusto architecto minus debitis enim illo nemo aliquam eligendi, iure ad aut cumque!</p>
+    <div id="this" class="third">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi alias corporis non error officiis adipisci recusandae natus delectus, hic nisi obcaecati suscipit eligendi nam eos quam illum saepe pariatur? Laboriosam, repellendus debitis labore eveniet dolore necessitatibus cum minus cupiditate esse, ullam dicta pariatur vel? Id, nam veniam, deserunt placeat cupiditate dicta soluta adipisci nisi officiis aperiam expedita provident voluptatum facere nihil sed recusandae quaerat architecto est explicabo quod voluptates. Distinctio eveniet ipsum et quibusdam, reiciendis laboriosam numquam ex dignissimos voluptates nostrum debitis fuga accusantium atque hic illo. Optio libero amet sint, accusamus culpa id, in cumque atque doloribus, asperiores repellat similique cum laborum alias laboriosam facere! Adipisci porro suscipit dolorum, aut corrupti earum repellat accusantium libero dolor rem sit aspernatur quo nobis eius mollitia? Hic, optio quos! Culpa recusandae quibusdam dolorem unde et, repellat ex. Magni iste itaque architecto nihil consectetur, obcaecati commodi. Asperiores quasi reiciendis corrupti dolorem? Fugit necessitatibus saepe incidunt iusto molestiae eaque atque blanditiis doloremque. Eum voluptas incidunt quisquam nisi, optio fugiat quod corrupti. Quidem dolorem earum reprehenderit nisi assumenda iste fuga magni et eaque placeat totam, voluptates temporibus facilis beatae minus sequi blanditiis cumque minima omnis illum, labore rem ipsum? Omnis quibusdam quidem voluptatum eveniet provident.
+    </div>
+    <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae, veniam.</span>
+    
+    <div id="2ndDiv" class="fourth">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate suscipit soluta in iure nesciunt quo ullam nisi dolores voluptas rerum.</div>
+</body>
+</html>
+<!-- important -->
+
+<!--  if p is contained by any li which is contained by div */
+ div li p{
+    color: yellow;
+    background-color: green;
+    font-weight: bold;
+} 
+
+if p is right inside div then this CSS will be applied */
+div > p{
+    color: yellow;
+    background-color: green;
+    font-weight: bold;
+} 
+
+if p is right after div i.e p is the next sibling of div*/
+div + p{
+    color: white;
+    background-color: rgb(238, 137, 137);
+} -->

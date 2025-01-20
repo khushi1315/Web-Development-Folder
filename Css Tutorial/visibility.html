@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visibility and z-index</title>
+    <style>
+        .box{
+            width: 300px;
+            height: 170px;
+            border:2px solid salmon;
+        }
+        #box1{
+            position: relative;
+            top:34px;
+            z-index: 20;
+            /* element with higher z-index will be on other element */
+            /* z-index value without px mand */
+            background-color: rgb(150, 188, 221);
+        }
+        #box2{
+            position: relative;
+            top:9px;
+            z-index: -34;
+            /* z-index will work on relative position,absolute,fixed and sticky only */
+            background-color: rgb(141, 222, 164);
+        }
+        #box3{
+            /* visibility:hidden; this property is for when you want to hide something but space of the element is reserved after hidding ; */
+            /* display:None will hide the element with it's space */
+            visibility: hidden;
+            background-color: rgb(206, 89, 153);
+        }
+        #box4{
+            background-color: rgb(184, 151, 86);
+        }
+    </style>
+</head>
+<body>
+    <!-- div.box#box$*4 to do it 4  times where $ is for numbers 1,2,3,4 -->
+    <div class="box" id="box1"></div>
+    <div class="box" id="box2"></div>
+    <div class="box" id="box3"></div>
+    <div class="box" id="box4"></div>
+</body>
+</html>

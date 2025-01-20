@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribut and Pseudo Selectors</title>
+    <style>
+        .container{
+            display: block;
+            width: 55%;
+            margin:auto;
+            /* display :block will be applied on if u set margin and width */
+        }
+         /* input[type='text'] {
+        padding: 23px;
+        border: 2px solid red;
+    } */
+     li:nth-child(2){
+        color: blue;
+     }
+     li:nth-child(2n+0){
+        color: blueviolet;
+     }
+     li:nth-child(3n+3) {
+            color: red;
+        }
+      /* Odd child */
+        /* li:nth-child(odd){
+        background-color: yellow;
+    } */
+
+        /* Even child */
+        /* li:nth-child(even) {
+            background-color: yellow;
+        } */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <ul>
+            <li class="item" id="item1">Iem 1</li>
+            <li class="item" id="item2">item2</li>
+            <li class="item" id="item3">item3</li>
+            <li class="item" id="item4">item4</li>
+            <li class="item" id="item5">item 5</li>
+            <li class="item" id="item6">item 6</li>
+            <li class="item" id="item7">item 7</li>
+            <li class="item" id="item8">item 8</li>
+            <li class="item" id="item9">item 9</li>
+        </ul>
+    </div>
+</body>
+</html>

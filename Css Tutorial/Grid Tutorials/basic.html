@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Tutorial</title>
+    <style>
+        .container{
+            display: grid;
+            /* grid-template-columns: 400px 200px 100px; */
+            /* grid-template-rows: 200px 200px 200px; */
+            /* grid-template-columns: 2fr 2fr 2fr 2fr; */
+            grid-template-columns: repeat(2,auto);
+            gap: 2rem;
+            column-gap:2px ;
+         
+        }
+        .item{
+            border: 2px solid black;
+            background-color: aquamarine;
+            /* height: 100px;
+            width: 100px; */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">This is item1</div>
+        <div class="item">This is item2</div>
+        <div class="item">This is item3</div>
+        <div class="item">This is item4</div>
+        <!-- <div class="item">This is item5</div>
+        <div class="item">This is item6</div>
+        <div class="item">This is item7</div>
+        <div class="item">This is item8</div> -->
+    </div>
+</body>
+</html>
