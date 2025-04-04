@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Manipulation</title>
+</head>
+<body>
+    <div id="main" class="Container">
+        <ul id="nav"><li>Home</li>
+            <li>About Us</li>
+            <li>Services</li>
+            <li>Contact us</li>
+            <li>Location</li>
+        </ul>
+    </div>
+    <div class="Container">
+        THIS IS ANOTHER CONTAINER
+    </div>
+    <script>
+        let Main=document.getElementById('main');
+        console.log(Main);
+        let nav=document.getElementById('nav');
+        console.log(nav);
+        let containers=document.getElementsByClassName('Container');
+        console.log(containers);
+        //you can use css selector
+        let sel=document.querySelectorAll('.Container');
+        console.log('css selector returns ',sel);
+        </script>
+</body>
+</html>

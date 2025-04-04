@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulating Dom</title>
+    <script src="DomManipulation.js"></script>
+</head>
+
+<body>
+    <div id="main" class="container">
+        <ul id="nav" >
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Services</li>
+            <li>More About us</li>
+            <li>Contact us</li>
+        </ul>
+    </div>
+    <div class="container">
+        Another container
+    </div>
+    <div class="newContain">
+        Hey!
+    </div>
+    <div class="newContain" id="second">
+        second
+    </div>
+   
+</body>
+<!-- <script>
+    let Main=document.getElementById("main");
+    console.log(Main);
+    let nav=document.getElementById("nav");
+    console.log(nav);
+
+    let containers=document.getElementsByClassName("container");
+    console.log(containers);
+    let newContainer= document.getElementsByClassName('newContain');
+    console.log(newContainer);
+
+// let sel=document.querySelector('.containers');
+// console.log("Selector returns ", sel);
+</script> -->
+<script>
+    let Container= document.getElementsByClassName('newContain');
+console.log(Container);
+let Sel=document.querySelectorAll('#nav>li');
+console.log("Selected Query returns ",Sel);
+</script>
+</html>
