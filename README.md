@@ -1,1 +1,1 @@
-This is my web development folder that currently consists of html and css. It contains concepts of html, css and files I made while learning it. All the files contains comments where necessary with some notes.
+This is my web development folder that currently consists of html,css and Javascript. It contains concepts of html, css and javascript files I made while learning it. All the files contains comments where necessary with some notes.
