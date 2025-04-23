@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/khushi1315/TEXTUTILS/static/css/main.18ce9ae0.css",
+    "main.js": "/khushi1315/TEXTUTILS/static/js/main.3e42923b.js",
+    "static/js/488.9c92ff38.chunk.js": "/khushi1315/TEXTUTILS/static/js/488.9c92ff38.chunk.js",
+    "static/media/textutil_LOGIN.png": "/khushi1315/TEXTUTILS/static/media/textutil_LOGIN.e8541a49c6fb639a5cc0.png",
+    "index.html": "/khushi1315/TEXTUTILS/index.html",
+    "main.18ce9ae0.css.map": "/khushi1315/TEXTUTILS/static/css/main.18ce9ae0.css.map",
+    "main.3e42923b.js.map": "/khushi1315/TEXTUTILS/static/js/main.3e42923b.js.map",
+    "488.9c92ff38.chunk.js.map": "/khushi1315/TEXTUTILS/static/js/488.9c92ff38.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18ce9ae0.css",
+    "static/js/main.3e42923b.js"
+  ]
+}

@@ -19,7 +19,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+   "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -44,5 +46,6 @@
     "postcss": ">=8.4.31",
     "body-parser": "1.20.3",
     "serve-static": "2.1.0"
-  }
+  },
+  "homepage": "https://github.com/khushi1315/TEXTUTILS"
 }
