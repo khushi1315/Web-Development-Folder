@@ -82,4 +82,7 @@
   .about-box.dark span {
     color: var(--dark-text-color);
   }
+  .about-box h2{
+    font-family: cursive;
+  }
   

@@ -17,7 +17,7 @@ const Login = () => {
 
         {/* Form on Right */}
         <div className="login-right">
-          <h2>Welcome to TEXTUTILS</h2>
+          <h2>Welcome to TEXTUTILS </h2>
 
           <button className="login-btn google">Login with Google</button>
           <button className="login-btn linkedin">Login with LinkedIn</button>
