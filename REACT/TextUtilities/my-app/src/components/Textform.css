@@ -1,0 +1,53 @@
+/* Base container styling */
+.container {
+  border: 2px solid rgb(190 184 190);
+  box-shadow: 6px 4px 12px rgb(239 229 239 / 74%);
+  border-radius: 25px;
+  background-color: rgba(143, 143, 143, 0.468);
+  
+}
+textarea.form-control{
+  background-color: #e8f4e8; /* Lighter shade for textarea */
+  color: #333;
+}
+
+/* Light mode textarea - different from container */
+body[style*="background-color: white"] textarea.form-control {
+  background-color: #e8f4e8; /* Lighter shade for textarea */
+  
+  color: #333;
+}
+
+body[style*="background-color: white"] .container {
+  background-color:rgba(194, 202, 200, 0.47); /* Dark purple for container */
+  color: rgb(18, 17, 17);
+}
+
+/* Dark mode container */
+body[style*="background-color: black"] .container {
+  background-color: rgb(76, 61, 89); /* Dark purple for container */
+  color: white;
+  box-shadow: 2px 2px 17px rgb(134 134 134 / 74%);
+}
+
+/* Dark mode textarea - different from container */
+body[style*="background-color: black"] textarea.form-control {
+  background-color: rgb(60, 50, 75); /* Slightly lighter than container */
+  color: rgb(232, 203, 203);
+}
+
+/* Fix for dark text in  mode */
+body[style*="background-color: black"] h1,
+body[style*="background-color: black"] h2,
+body[style*="background-color: black"] h3,
+body[style*="background-color: black"] p,
+body[style*="background-color: black"] .features-heading {
+  color: white !important;
+}
+
+
+
+
+
+
+

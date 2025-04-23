@@ -1,0 +1,28 @@
+/* styles.css */
+:root {
+    --bg-color: white;
+    --text-color: black;
+  }
+/*   
+  [data-theme="dark"] {
+    --bg-color: #121212;
+    --text-color: #ffffff;
+  }
+  
+  [data-theme="blue"] {
+    --bg-color: #0d6efd;
+    --text-color: white;
+  }
+   */
+  /* Use the variables in elements */
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 100vh;
+    background-color: var(--bg-color);
+  }

@@ -1,0 +1,85 @@
+:root {
+    --light-bg-color: #ccd1dc;
+    --light-text-color: #555;
+    --light-box-bg-color: white;
+    --light-heading-color: #343a40;
+    --dark-bg-color: #212529;  /* Darker background for better contrast */
+    --dark-text-color: #e0e0e0;
+    --dark-box-bg-color: #343a40;
+    --dark-heading-color: #ffffff;
+  }
+  
+  .about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    min-height: 100vh;
+    transition: background-color 0.3s ease;
+  }
+  
+  .about-container.light {
+    background-color: var(--light-bg-color);
+  }
+  
+  .about-container.dark {
+    background-color: var(--dark-bg-color);
+  }
+  
+  .about-box {
+    max-width: 800px;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 20px 20px 20px 20px rgba(18, 12, 22, 0.667);
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .about-box.light {
+    background-color: var(--light-box-bg-color);
+    color: var(--light-text-color);
+  }
+  
+  .about-box.dark {
+    background-color: var(--dark-box-bg-color);
+    color: var(--dark-text-color);
+  }
+  
+  /* Fix for headings - separate light and dark styles completely */
+  .about-box.light h1,
+  .about-box.light h2 {
+    color: var(--light-heading-color);
+  }
+  
+  .about-box.dark h1,
+  .about-box.dark h2 {
+    color: var(--dark-heading-color);
+  }
+  
+  .about-box p {
+    font-size: 17px;
+    margin-bottom: 20px;
+    line-height: 1.7;
+    transition: color 0.3s ease;
+  }
+  
+  .about-box ul.features-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 20px;
+  }
+  
+  .about-box li {
+    font-size: 16px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s ease;
+  }
+  
+  /* Ensure all text elements inherit the correct color in dark mode */
+  .about-box.dark p,
+  .about-box.dark li,
+  .about-box.dark span {
+    color: var(--dark-text-color);
+  }
+  
